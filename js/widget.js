@@ -5,7 +5,7 @@
 
     xhr.responseType = 'json';
     
-    xhr.open('GET', 'hw_ajax/data/employees.json')
+    xhr.open('GET', 'https://senseoff.github.io/hw_ajax/data/employees.json')
 
     xhr.onreadystatechange = function () {
         if (xhr.readyState != 4) return;
